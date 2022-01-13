@@ -1,0 +1,289 @@
+body{
+    font-family: "Montserrat";
+}
+
+h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+#title{
+    background-color: #064635;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Nav-Bar */
+
+.navbar{
+    padding: 0 0 3.5rem;
+}
+
+.nav-logo{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    padding: 3%;
+}
+
+.navbar-brand{
+    font-family: 'The Nautigal', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Title-Buttons */
+
+.title-button{
+    margin: 5% 3% 5% 30%;
+}
+
+
+/* Title-Image */
+
+.title-image1{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.title-image2{
+    width: 100%;
+    height: 110%;
+    border-radius: 100%; 
+}
+
+/* Menu */
+
+#menu{
+    background-color: #A3DA8D;
+    padding: 7% 15%;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-heading{
+    color: #064635;
+    font-family: 'Dancing Script', cursive;
+    width: auto;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.menu-image1{
+    width: 80%;
+    border-radius: 100%; 
+}
+
+.menu-image2{
+    width: 85%;
+    height: 51%;
+    border-radius: 100%; 
+}
+
+.menu-image3{
+    width: 90%;
+    height: 60%;
+    border-radius: 100%; 
+}
+
+.menu-image4{
+    width: 90%;
+    height: 60%;
+    border-radius: 100%; 
+}
+
+.menu-h2{
+    padding: 3% 5%;
+    font-weight: 900;
+}
+
+.menu-h21{
+    margin-top: 16px;
+    padding: 3% 5%;
+    font-weight: 900;
+}
+
+.menu-p{
+    font-weight: 500; 
+    text-align: center;
+    width: 60%;
+    margin: auto auto;
+}
+
+.menu-button{
+    margin: auto auto;
+    margin-top: 20px;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #6ECB63;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-family: 'Dancing Script', cursive;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Contact */
+
+#contact{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #BAFFB4;
+}
+
+.contact-heading{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.contact-text{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.map-image{
+    width: 120%;
+    height: 25rem;
+    border-radius: 100%;       
+}
+
+/* Review */
+
+#review{
+    padding: 3% 15%;
+    background-color: #064635;
+    color: #fff;
+}
+
+.review-image{
+    margin-top: 70px;
+    width: 90%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+.review-heading{
+    margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    width: auto;
+    text-align: center;
+}
+
+
+.review-text{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2rem;
+}
+
+.review-button{
+    margin-left: 70px;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #A3DA8D;
+    padding: 5% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-icon{
+    margin: 20px 15px;
+    
+}
+
+.footer-text{
+    font-size: 1rem;
+}
+
+
+@media (max-width: 1000px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+    .title-button{
+        margin: auto auto;
+    }
+    .title-image1{
+        padding-top: 30px;
+    }
+    .title-image2{
+        padding-bottom: 50px;
+    }
+
+    .menu-image2{
+        margin-top: 50px;
+    }
+
+    .contact-heading{
+        text-align: center;
+    }
+    .contact-text{
+        text-align: center;
+    }
+    .map-image{
+        margin: auto auto;
+        padding: auto auto;
+    }
+
+    .review-heading{
+        margin-top: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
