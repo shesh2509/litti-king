@@ -273,10 +273,6 @@ h1{
         margin-top: 50px;
     }
 
-    #testimonials{
-        padding-top: 15%;
-    }
-
     .contact-heading{
         text-align: center;
         font-size: 3rem;
@@ -287,7 +283,7 @@ h1{
     }
     .map-image{
         position: relative;
-        right: 40px;
+        right: 45px;
     }
 
     .review-heading{
@@ -297,8 +293,8 @@ h1{
     .review-button{
         position: relative;
         padding: 2% 5%;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 10px;
     }
 
 }
